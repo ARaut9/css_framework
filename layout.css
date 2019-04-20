@@ -1,0 +1,121 @@
+:root {
+  --width: calc((100% - 20px * 12) / 12);
+}
+
+.grid-container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: #000;
+  height: 100vh;
+}
+
+.row {
+  width: 100%;
+  background-color: #e5e5e5;
+  height: 50vh;
+}
+
+/*-- Clearfix Hack --*/
+.row:after {
+  display: table;
+  clear: both;
+  content: '';
+}
+
+
+.col-1 {
+  width: var(--width);
+  margin: 0 10px;
+  float: left;
+  background-color: #a7d6e9;
+  height: 40vh;
+}
+
+.col-2 {
+  width: calc(var(--width) * 2 + 20px);
+  margin: 0 10px;
+  float: left;
+  background-color: #a7d6e9;
+  height: 40vh;
+}
+
+.col-3 {
+  width: calc(var(--width) * 3 + 40px);
+  margin: 0 10px;
+  float: left;
+  background-color: #a7d6e9;
+  height: 40vh;
+}
+
+.col-4 {
+  width: calc(var(--width) * 4 + 60px);
+  margin: 0 10px;
+  float: left;
+  background-color: #a7d6e9;
+  height: 40vh;
+}
+
+.col-5 {
+  width: calc(var(--width) * 5 + 80px);
+  margin: 0 10px;
+  float: left;
+  background-color: #a7d6e9;
+  height: 40vh;
+}
+
+.col-6 {
+  width: calc(var(--width) * 6 + 100px);
+  margin: 0 10px;
+  float: left;
+  background-color: #a7d6e9;
+  height: 40vh;
+}
+
+.col-7 {
+  width: calc(var(--width) * 7 + 120px);
+  margin: 0 10px;
+  float: left;
+  background-color: #a7d6e9;
+  height: 40vh;
+}
+
+.col-8 {
+  width: calc(var(--width) * 8 + 140px);
+  margin: 0 10px;
+  float: left;
+  background-color: #a7d6e9;
+  height: 40vh;
+}
+
+.col-9 {
+  width: calc(var(--width) * 9 + 160px);
+  margin: 0 10px;
+  float: left;
+  background-color: #a7d6e9;
+  height: 40vh;
+}
+
+.col-10 {
+  width: calc(var(--width) * 10 + 180px);
+  margin: 0 10px;
+  float: left;
+  background-color: #a7d6e9;
+  height: 40vh;
+}
+
+.col-11 {
+  width: calc(var(--width) * 11 + 200px);
+  margin: 0 10px;
+  float: left;
+  background-color: #a7d6e9;
+  height: 40vh;
+}
+
+.col-12 {
+  width: calc(var(--width) * 12 + 220px);
+  margin: 0 10px;
+  float: left;
+  background-color: #a7d6e9;
+  height: 40vh;
+}
